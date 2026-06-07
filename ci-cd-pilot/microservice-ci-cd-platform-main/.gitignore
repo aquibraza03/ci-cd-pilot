@@ -1,0 +1,20 @@
+trivy/
+bin/trivy.exe
+*.zip
+.env.local
+# Generated env files
+environments/*/env.example
+# Build artifacts
+artifacts/
+build/
+
+# binaries
+bin/
+*.exe
+
+# local build output
+main
+
+# node
+node_modules/
+
